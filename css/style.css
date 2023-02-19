@@ -46,10 +46,14 @@ Estos valores se aplicarán a todos los elementos con la clase header en la pág
 .header {
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 90px;
   background-color: rgb(209, 205, 199);
   
+}
 
+#logo{
+  width: 100px;
+  height: 60px;
 }
 /** 
 La siguiente regla CSS se aplica a todos los elementos con la clase logo.
@@ -60,8 +64,8 @@ padding es una propiedad que se utiliza para establecer el espacio dentro de un 
 
 Estos valores se aplicarán a todos los elementos con la clase logo en la página, lo que permitirá controlar cómo se presentan estos elementos y cómo interactúan con otros elementos de la página. Por ejemplo, estos elementos podrían ser utilizados como un logotipo o una imagen en una página web.
 */
-.logo img{
-
+.logo 
+    img{
   float: left;
   padding: 10px;
   border-radius: 30%;
@@ -102,10 +106,6 @@ Estos valores se aplicarán a todos los elementos de anclaje (a) que están dent
   margin-left: 50px;
 }
 
-.menu td:hover a{
-  font-size:30px ;
-  
-}
 .letras :hover{
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
